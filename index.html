@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER WebApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0px;
+
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: sans-serif;
+
+            
+        }
+
+        .btnsearch {
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            background-color: #9c9b9bd0;
+            cursor: pointer;
+
+
+        }
+
+        .btnsearch:hover {
+            background-color: #c7c7c7;
+        }
+
+        .searchbox {
+            width: 200px;
+            height: 30px;
+            border-radius: 30px;
+            background-color: #4b4a4ad0;
+            color: white;
+
+        }
+
+        .container {
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #000000d0;
+
+
+
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Search City" class="searchbox">
+            <button type="submit" class="btnsearch"><i class="fa fa-search"></i></button>
+        </div>
+        <br>
+        <h2><b>
+                <div class="cityname">
+
+                </div>
+            </b></h2>
+
+        <br>
+        <h3>
+            <div class="temperature">
+                temperature
+            </div>
+        </h3>
+        <br>
+
+        <div class="clouddiscrip">
+            cloud
+        </div>
+
+        <div class="humidity">
+            humidity
+        </div>
+
+        <div class="windspeed">
+            wind speed
+        </div>
+    </div>
+
+</body>
+<script src="App.js"></script>
+
+</html>
